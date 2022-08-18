@@ -1,0 +1,10 @@
+body {
+    background: rgb(70,16,96);
+    background: linear-gradient(128deg, rgba(70,16,96,1) 0%, rgba(174,115,251,1) 100%);
+    overflow-y: hidden;
+}
+@media only screen and (max-width: 900px){
+    body{
+        overflow:scroll;
+    }
+}

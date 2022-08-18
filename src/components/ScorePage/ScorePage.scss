@@ -1,0 +1,39 @@
+.score-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.score-page-number{
+    color: white;
+}
+.score-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.score-paper{
+    height: 190px;
+    width: 190px;
+    border-style: solid ;
+    border-color: rgb(255, 255, 255);
+    border-width: 15px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width: 900px){
+    .score-paper{
+        height: 150px;
+        width: 150px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .score-paper{
+        height: 100px;
+        width: 100px;
+    }
+}
