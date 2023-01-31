@@ -44,7 +44,7 @@ Quizzy
 Quiz website made using React, Redux, Redux-Thunk, Sass and the trivia API.
 
 Features:
-* Over 20 different category can be chosen to be quizzed upon
+* Over 20 different categories can be chosen to be quizzed upon
 * Scoring system to indicate how well you did
 * Modern UI/UX to make the website easy to navigate
 ### Built With
